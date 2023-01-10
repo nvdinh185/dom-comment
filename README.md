@@ -45,4 +45,4 @@ Hiển thị danh sách comment theo định dạng:
 - Tên user1: Nội dung comment1
 - Tên user2: Nội dung comment2
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png)
+![alt text](image.jpg)
