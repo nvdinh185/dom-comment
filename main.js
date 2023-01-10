@@ -28,8 +28,12 @@ const comments = [
         id: 3,
         user_id: 1,
         content: 'cam ơn anh'
+    },
+    {
+        id: 4,
+        user_id: 3,
+        content: 'chém gió cho vui'
     }
-
 ]
 
 function getUsersByIds(userIds) {
