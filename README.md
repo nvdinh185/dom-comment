@@ -40,9 +40,6 @@ const comments = [
 ]
 ```
 
-Hiển thị danh sách comment theo định dạng:
-
-- Tên user1: Nội dung comment1
-- Tên user2: Nội dung comment2
+Hiển thị danh sách comment như sau:
 
 ![alt text](image.jpg)
