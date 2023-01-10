@@ -36,23 +36,27 @@ const comments = [
     }
 ]
 
+// Hàm lấy danh sách users theo mảng ids
 function getUsersByIds(userIds) {
     return users.filter(function (user) {
         return userIds.includes(user.id);
     })
 }
-
+// lấy danh sách user_id của danh sách comments
 const userIds = comments.map(function (comment) {
     return comment.user_id;
 })
+
+// danh sách users tham gia comment
 const usersByIds = getUsersByIds(userIds);
 
 const commentBlock = document.getElementById('comment-block');
 var html = '';
 comments.forEach(function (comment) {
+    //  user tham gia comment này
     const user = usersByIds.find(function (user) {
         return user.id === comment.user_id;
     })
-    html += `<li>${user.name}: ${comment.content}</li>`;
+    html += `<li><strong>${user.name}</strong>: ${comment.content}</li>`;
 });
 commentBlock.innerHTML = html;
